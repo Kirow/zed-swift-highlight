@@ -1,17 +1,14 @@
-id = "swift"
-name = "Swift"
-description = "Swift support."
+id = "swift-syntax"
+name = "Swift Syntax"
+description = "Swift syntax highlighting support."
 version = "0.4.0"
 schema_version = 1
 authors = [
     "ejjonny <https://github.com/ejjonny>",
     "Samuser107 L.Longheval <samuser107@gmail.com>",
+    "Kirow <https://github.com/kirow>",
 ]
-repository = "https://github.com/zed-extensions/swift"
-
-[language_servers.sourcekit-lsp]
-name = "sourcekit-lsp"
-language = "Swift"
+repository = "https://github.com/Kirow/zed-swift-highlight.git"
 
 [grammars.swift]
 repository = "https://github.com/alex-pinkus/tree-sitter-swift"
